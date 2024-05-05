@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+#movieSearch {
+    width: calc(100% - 220px);
+    max-width: 300px;
+    padding: 10px;
+    margin: 20px auto;
+    display: block;
+}
+
+#searchButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+
+#searchButton:hover {
+    background-color: #0056b3;
+}
+
+#movieDetails {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#movieDetails h2 {
+    color: #333;
+}
+
+#movieDetails p {
+    color: #666;
+}
+
+#movieDetails img {
+    max-width: 100%;
+    display: block;
+    margin-top: 10px;
+    border-radius: 5px;
+}
